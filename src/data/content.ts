@@ -41,7 +41,7 @@ export const PROCEDURES: Procedure[] = [
     subtitle: "Clareamento Inteligente & Regeneração",
     description: "Abordagem científica e não agressiva para desacelerar a melanogênese, clarear hipercromias e fortalecer a barreira biológica sem efeito rebote.",
     benefits: ["Clareamento gradual e seguro", "Fortalecimento da barreira cutânea", "Plano home care personalizado", "Prevenção contra efeito rebote"],
-    image: "https://images.unsplash.com/photo-1512290900672-1f41634b3e6c?auto=format&fit=crop&w=1000&q=85",
+    image: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=1000&q=85",
     badge: "Alta Procura",
     whatsappMessage: "Olá Thaís! Gostaria de agendar uma avaliação para controle de Melasma e manchas faciais."
   },
@@ -95,7 +95,7 @@ export const GALLERY_ITEMS = [
   {
     title: "Controle de Melasma",
     category: "Pele Uniforme",
-    image: "https://images.unsplash.com/photo-1512290900672-1f41634b3e6c?auto=format&fit=crop&w=800&q=85",
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=85",
     description: "Harmonização de tonalidade e viço recuperado com protocolo gradual."
   },
   {

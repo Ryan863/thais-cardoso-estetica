@@ -28,11 +28,11 @@ export const Navbar: React.FC = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#1C1714]/85 backdrop-blur-md py-3.5 border-b border-[#E6DDCF]/15 shadow-md'
-          : 'bg-gradient-to-b from-[#161210]/70 via-[#161210]/30 to-transparent py-5 sm:py-6'
+          ? 'bg-[#1C1714]/92 backdrop-blur-xl py-4.5 border-b border-[#E6DDCF]/15 shadow-xl'
+          : 'bg-gradient-to-b from-[#140F0D]/80 via-[#140F0D]/30 to-transparent py-6'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between min-h-[44px]">
         {/* Brand Monogram & Title */}
         <a
           href="#"

@@ -17,22 +17,22 @@ export const FloatingWhatsAppCTA: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
         id="floating-whatsapp-btn"
-        className="group relative flex items-center justify-center h-14 w-14 sm:w-auto sm:px-6 sm:h-13 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full shadow-2xl shadow-emerald-900/30 transition-transform active:scale-95 duration-200 border border-white/20"
+        className="group relative flex items-center justify-center h-14 w-14 sm:w-auto sm:px-6 sm:h-13 bg-[#964F48] hover:bg-[#833F39] text-[#FAF7F2] rounded-full shadow-2xl shadow-black/40 transition-all active:scale-95 duration-200 border border-[#DECBB7]/50 backdrop-blur-md"
       >
-        {/* Pulsing indicator */}
+        {/* Pulsing indicator in elegant warm champagne */}
         <span className="absolute -top-1 -right-1 flex h-4 w-4">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-          <span className="relative inline-flex rounded-full h-4 w-4 bg-emerald-300 border-2 border-white" />
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#DECBB7] opacity-75" />
+          <span className="relative inline-flex rounded-full h-4 w-4 bg-[#EADCCB] border-2 border-[#1E1714]" />
         </span>
 
-        <MessageCircle className="w-6 h-6 sm:mr-2.5 stroke-[2.2] fill-current" />
+        <MessageCircle className="w-5 h-5 sm:mr-2.5 stroke-[2] text-[#DECBB7] fill-current" />
         
         <div className="hidden sm:flex flex-col text-left">
-          <span className="font-sans font-bold text-xs uppercase tracking-wider leading-none">
+          <span className="font-sans font-bold text-[11px] uppercase tracking-[0.16em] leading-none text-[#FAF7F2]">
             Agendar Horário
           </span>
-          <span className="text-[10px] text-emerald-100 font-light tracking-wide mt-0.5">
-            Resposta Rápida no WhatsApp
+          <span className="text-[10px] text-[#E8DFD3]/80 font-light tracking-wide mt-0.5">
+            Atendimento no WhatsApp
           </span>
         </div>
       </a>

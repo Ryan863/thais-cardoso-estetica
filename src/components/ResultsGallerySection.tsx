@@ -50,6 +50,9 @@ export const ResultsGallerySection: React.FC = () => {
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
                 loading="lazy"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85';
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
                 <span className="text-[9px] uppercase tracking-wider font-semibold text-[#DECBB7]">
